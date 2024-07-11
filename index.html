@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Database Credentials Test</title>
+</head>
+<body>
+    <h1>Database Credentials Test</h1>
+    
+    <form action="test.php" method="post">
+        <label for="region">DB Region:</label>
+        <input type="text" id="region" name="region" value="<?php echo $_ENV['DB_REGION']; ?>" readonly><br><br>
+        
+        <label for="keyspace">DB Keyspace:</label>
+        <input type="text" id="keyspace" name="keyspace" value="<?php echo $_ENV['DB_KEYSPACE']; ?>" readonly><br><br>
+        
+        <label for="token">DB Application Token:</label>
+        <input type="text" id="token" name="token" value="<?php echo $_ENV['DB_TOKEN']; ?>" readonly><br><br>
+        
+        <input type="submit" value="Test Credentials">
+    </form>
+</body>
+</html>
