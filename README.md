@@ -138,8 +138,3 @@ Deployment: Choose a hosting service and deploy your website. Consider services 
 SEO and Performance Optimization: Optimize your website for search engines and performance. This includes optimizing images, using caching, and ensuring your site is mobile-friendly.
 
 Maintenance and Updates: Regularly update your website and backend system to fix bugs, add new features,
-
-export ASTRA_DB_ID=9de99fa8-b352-4ff6-9e5f-3d6a1abbc73e
-export ASTRA_DB_REGION=us-east1
-export ASTRA_DB_KEYSPACE=alsana
-export ASTRA_DB_APPLICATION_TOKEN=AstraCS:msCNdvvOmxoJpZTdHIBcEtgC:83315d13ed2ef550a26347088cc6042babd1f2962ccf78eb3577fe2d9659ce85
